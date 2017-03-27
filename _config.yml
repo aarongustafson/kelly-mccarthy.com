@@ -27,8 +27,7 @@ exclude:
 #
 # Site settings
 title: Kelly McCarthy
-description: > # this means to ignore newlines until "baseurl:"
-  Hi. I’m Kelly McCarthy.
+description:  "I bring people &amp; technology together."
 owner: Kelly McCarthy
 first_published: 2017 # if migrating another site, the year of your first publish
 email: kelly@easy-designs.net
