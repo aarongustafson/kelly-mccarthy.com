@@ -88,7 +88,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		font-weight: _font(weight-bold);
 	}
 
-	em, i {
+	cite, em, i {
 		font-style: italic;
 	}
 

@@ -4,7 +4,7 @@ home:
     text: "My career has taken many twists and turns, but I have nestled<br> into the cozy nexus of these three amazing fields."
   major:
     - title: Champion for Digital Equity
-      text: "I am the Program Director for [Tech Goes Home Chattanooga](https://techgoeshomecha.org), a project of Chattanooga’s Enterprice Center. We work with community organizations to provide digital literacy training, a personal device, and low cost access to the internet to Hamilton County’s underserved residents."
+      text: "I founded and am the Program Director of [Tech Goes Home Chattanooga](https://techgoeshomecha.org), a project of Chattanooga’s Enterprice Center. We work with community organizations to provide digital literacy training, a personal device, and low cost access to the internet to Hamilton County’s underserved residents."
       image: images/pic01.jpg
     - title: Community Builder
       text: "I co-founded [Code &amp; Creativity](https://codeandcreativity.com). This bi-monthly talk series brought the web design and 
@@ -15,7 +15,7 @@ home:
       image: images/pic03.jpg
   minor:
     intro: Random Bits of Interest
-    text: "The following is a collectino of interviews, podcasts, and more about me and the work that I do."
+    text: "The following is a collection of interviews, podcasts, and more about me and the work that I do."
     blocks:
       - icon: trophy
         link: "http://www.chattanoogan.com/2015/11/5/312030/Chattanooga-Recognized-As-Leader-In.aspx"
@@ -28,19 +28,20 @@ home:
       - icon: trophy
         link: "http://www.timesfreepress.com/news/local/story/2014/dec/06/girls-inc-honoring-10-women-for-accomplishments/277139/"
         title: "Unbought &amp; Unbossed"
-        text: "I’m so honored to be a recipient of Girls, Inc.’s prestigious award."
-      - icon: newspaper-o
-        link: "http://hechingerreport.org/teaching-preschoolers-to-use-computers-along-with-their-parents/"
-        title: "Teaching preschoolers to use computers — along with their parents"
-        text: "The Hetchinger Report interviewed me about Tech Goes Home Chattanooga."
+        text: "I’m so incredibly honored to be a recipient of Girls, Inc.’s prestigious award."
       - icon: podcast
         link: "https://thecamphouse.simplecast.fm//episodes/62666-tech-goes-home-with-kelly-mccarthy"
         title: "The Camp House Podcast"
         text: "Matt Busby and I talk about Tech Goes Home Chattanooga and the importance of digital equity."
-      - icon: podcast
-        link: "http://wutc.org/post/start-it-episode-15-code-and-creativity-makes-connecting-fun"
-        title: "Code and Creativity Makes Connecting Fun"
-        text: "Aaron &amp; I appeared on WUTC’s *Start It Up* to talk about the event series we started to bring Chattanooga’s designers and developers together."
+      - icon: trophy
+        link: "http://www.venturetennessee.com/chattanooga-startup-awards-winners-2016-cms-857"
+        title: "Chattanooga Startup Awards Winner"
+        text: "Tech Goes Home Chattanooga brought home the CHA Startup Award for Education. Go team!"
+      - icon: newspaper-o
+        link: "http://hechingerreport.org/teaching-preschoolers-to-use-computers-along-with-their-parents/"
+        title: "Teaching preschoolers to use computers — along with their parents"
+        text: "The Hetchinger Report interviewed me about Tech Goes Home Chattanooga."
+      
 contact:
   title: Drop Me a Line
   text: "I’m always happy to talk about the work I do and the programs I run. Just fill in the brief form below or hit me up [on Twitter](https://twitter.com/ShirleyTemper)."
