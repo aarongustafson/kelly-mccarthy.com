@@ -1,0 +1,105 @@
+---
+layout: landing
+---
+{% assign copy = site.data.microcopy.home %}
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>{{ site.title }}</h2>
+        <p>{{ site.description | markdownify }}</p>
+    </div>
+    <a href="#one" class="more scrolly">Learn More</a>
+</section>
+
+<!-- One -->
+<section id="one" class="wrapper style1 special">
+    <div class="inner">
+        <header class="major">
+            <h2>{{ copy.intro.title | widont }}</h2>
+            {{ copy.intro.text | markdownify }}
+        </header>
+        <ul class="icons major">
+            <li><span class="icon fa-graduation-cap major style1"></span></li>
+            <li><span class="icon fa-laptop major style2"></span></li>
+            <li><span class="icon fa-bullhorn major style3"></span></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper alt style2">
+    {% for block in copy.major %}
+    <div class="spotlight">
+        <div class="image"
+            ><img src="{{ block.image | replace:'.jpg','-320.jpg' }}"
+                  srcset="{{ block.image | replace:'.jpg','-320.jpg' }} 320w,
+                          {{ block.image | replace:'.jpg','-480.jpg' }} 480w,
+                          {{ block.image | replace:'.jpg','-768.jpg' }} 768w"
+                  sizes="100vw, 40% (max-width: 980px)"
+                  alt="" /></div><div class="content">
+            <h2>{{ block.title | widont }}</h2>
+            {{ block.text | markdownify }}
+            <p>
+            </p>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+            <h2>{{ copy.minor.intro | widont }}</h2>
+            {{ copy.minor.text | markdownify }}
+        </header>
+        <ul class="features">
+            {% for block in copy.minor.blocks %}
+            <li class="icon fa-{{ block.icon }}">
+                {% if block.link %}<a href="{{ block.link }}">{% endif %}
+                <h3>{{ block.title | widont }}</h3>
+                {{ block.text | markdownify }}
+                {% if block.link %}</a>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+
+<!-- CTA -->
+{% assign contact = site.data.microcopy.contact %}
+<section class="wrapper style4">
+    <div class="inner">
+        <header>
+            <h2>{{ contact.title | widont }}</h2>
+            {{ contact.text | markdownify }}
+        </header>
+        <form class="contact-form" accept-charset="UTF-8" enctype="multipart/form-data" method="post" action="https://aarongustafson.wufoo.com/forms/contact-kelly/">
+            <div class="row uniform">
+                <div class="12u$">
+                    <label for="Field9">{{ contact.fields.name.label }}</label>
+                    <input id="Field9" name="Field9" type="text" maxlength="255"
+                           required aria-required="true" autocomplete="name" spellcheck="false"
+                           placeholder="{{ contact.fields.name.placeholder }}">
+                </div>
+                <div class="12u$">
+                    <label for="Field12">{{ contact.fields.email.label }}</label>
+                    <input id="Field12" name="Field12" type="email" maxlength="255"
+                           required aria-required="true" autocomplete="email" spellcheck="false"
+                           placeholder="{{ contact.fields.email.placeholder }}">
+                </div>
+                <div class="12u$">
+                    <label for="Field11">{{ contact.fields.message.label }}</label>
+                    <textarea id="Field11" name="Field11" spellcheck="true"
+                              required aria-required="true">{{ contact.fields.message.placeholder }}</textarea>
+                </div>
+                <div class="12u$">
+                    <ul class="actions">
+                        <li><input type="submit" value="{{ contact.submit }}" class="special"></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
