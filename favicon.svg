@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="473px" height="473px" viewBox="0 0 473 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>favicon</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-1" fill="#18A595" sketch:type="MSShapeGroup" x="0" y="0" width="473" height="473"></rect>
+        <path d="M196.25,336 L146.75,336 L92.890625,249.375 L74.46875,262.59375 L74.46875,336 L30.875,336 L30.875,130.40625 L74.46875,130.40625 L74.46875,224.484375 L91.625,200.296875 L147.3125,130.40625 L195.6875,130.40625 L123.96875,221.390625 L196.25,336 Z M309.171875,336 L259.671875,174.703125 L258.40625,174.703125 C260.187509,207.515789 261.078125,229.406195 261.078125,240.375 L261.078125,336 L222.125,336 L222.125,130.40625 L281.46875,130.40625 L330.125,287.625 L330.96875,287.625 L382.578125,130.40625 L441.921875,130.40625 L441.921875,336 L401.28125,336 L401.28125,238.6875 C401.28125,234.093727 401.351562,228.796905 401.492188,222.796875 C401.632813,216.796845 402.265619,200.859504 403.390625,174.984375 L402.125,174.984375 L349.109375,336 L309.171875,336 Z" id="KM" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

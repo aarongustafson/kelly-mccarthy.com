@@ -6,7 +6,7 @@ layout: landing
 <!-- Banner -->
 <section id="banner">
     <div class="inner">
-        <h2>{{ site.title }}</h2>
+        <h2>{{ site.title | replace:"McC","M<sup>c</sup>C" }}</h2>
         <p>{{ site.description | markdownify }}</p>
     </div>
     <a href="#one" class="more scrolly">Learn More</a>

@@ -1537,6 +1537,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			position: relative;
 			z-index: 1;
 
+			sup {
+				top: -0.2em;
+			}
+
 			&:before, &:after {
 				@include vendor('transition', 'width 0.5s ease');
 				animation: banner-bars 1.25s forwards;
