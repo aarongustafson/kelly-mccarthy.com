@@ -7,10 +7,10 @@ task :go do
     system "git push"
     system "bundle exec jekyll build --incremental"
     cd "_site" do
-    	message = "Site updated at #{time}"
+    	message = "Site updated at #{Time.now.utc}"
     	system "git add ."
     	system "git commit -a -m '#{message}'"
     	system "git push live"
-		puts "\n## Pushing Live @ #{time}"
+		puts "\n## Pushing Live @ #{Time.now.utc}"
 	end
 end
