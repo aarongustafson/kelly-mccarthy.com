@@ -1,17 +1,16 @@
 home:
   intro:
-    title: "Educator / Technologist / Community Activist"
+    title: "Educator / Technologist / Community Advocate"
     text: "My career has taken many twists and turns, but I have nestled<br> into the cozy nexus of these three amazing fields."
   major:
     - title: Champion for Digital Equity
-      text: "I founded and am the Program Director of [Tech Goes Home Chattanooga](https://techgoeshomecha.org), a project of Chattanooga’s Enterprice Center. We work with community organizations to provide digital literacy training, a personal device, and low cost access to the internet to Hamilton County’s underserved residents."
+      text: "I am the Program Director of [Tech Goes Home Chattanooga](https://techgoeshomecha.org), the first digital inclusion project of [Chattanooga’s Enterprise Center](http://www.theenterprisectr.org/). We work with community organizations to provide free digital literacy training, an affordable device, and access to low-cost home Internet for Hamilton County’s underserved residents."
       image: images/pic01.jpg
     - title: Community Builder
-      text: "I co-founded [Code &amp; Creativity](https://codeandcreativity.com). This bi-monthly talk series brought the web design and 
-				development communities in Chattanooga together to hear from world-reknown experts for free. I also founded Chattanooga’s largest city-wide hackathon: Hackanooga."
+      text: "I co-founded [Code &amp; Creativity](https://codeandcreativity.com). This bi-monthly talk series brought the web design and development communities in Chattanooga together to hear from world-renowned experts for free. I also organized Chattanooga’s largest city-wide hackathon: [Hackanooga](https://twitter.com/hackanooga)."
       image: images/pic02.jpg
     - title: Inclusive Designer
-      text: "Through my work as Co-founder and UX Lead of [Easy Designs](http://easy-designs.net), I worked every day to make the Web a more equitable and friendly place for everyone. I also helped establish the [Chattanooga Open Device Lab](https://chadevicelab.org/) to increase awareness of digital device diversity among Chattanooga’s dev community."
+      text: "Through my work as Co-founder and UX Lead of [Easy Designs](http://easy-designs.net), I worked to make the Web a more equitable and friendly place for everyone. I also helped establish the [Chattanooga Open Device Lab](https://chadevicelab.org/) to increase awareness of digital device diversity among Chattanooga’s dev community."
       image: images/pic03.jpg
   minor:
     intro: Random Bits of Interest
@@ -32,7 +31,7 @@ home:
       - icon: podcast
         link: "https://thecamphouse.simplecast.fm//episodes/62666-tech-goes-home-with-kelly-mccarthy"
         title: "The Camp House Podcast"
-        text: "Matt Busby and I talk about Tech Goes Home Chattanooga and the importance of digital equity."
+        text: "Matt Busby and I talked about Tech Goes Home Chattanooga and the importance of digital equity."
       - icon: trophy
         link: "http://www.venturetennessee.com/chattanooga-startup-awards-winners-2016-cms-857"
         title: "Chattanooga Startup Awards Winner"
