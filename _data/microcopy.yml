@@ -42,7 +42,7 @@ home:
         text: "The Hetchinger Report interviewed me about Tech Goes Home Chattanooga."
 contact:
   title: Drop Me a Line
-  text: "I’m always happy to talk about the work I do and the programs I run. Just fill in the brief form below or hit me up [on Twitter](https://twitter.com/ShirleyTemper)."
+  text: "I’m always happy to talk about the work I do and share what I’ve learned. Just fill in the brief form below or hit me up [on Twitter](https://twitter.com/ShirleyTemper)."
   fields:
     name:
       label: "What’s your name?"
