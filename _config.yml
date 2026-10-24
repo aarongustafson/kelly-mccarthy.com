@@ -17,12 +17,18 @@ twitter_username:
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-admin
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - Rakefile
+  - docker-compose.yml
+  - LICENSE
+  - vendor
+  - .bundle
+  - .DS_Store
 
 # Welcome to Jekyll!
 #
