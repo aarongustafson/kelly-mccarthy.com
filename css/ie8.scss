@@ -88,7 +88,7 @@
 
 	#banner,
 	.wrapper.style4 {
-		-ms-behavior: url('js/ie/backgroundsize.min.htc');
+		-ms-behavior: url('../js/ie/backgroundsize.min.htc');
 
 		&:before {
 			display: none;
@@ -111,7 +111,7 @@
 
 	#main {
 		> header {
-			-ms-behavior: url('js/ie/backgroundsize.min.htc');
+			-ms-behavior: url('../js/ie/backgroundsize.min.htc');
 
 			&:before {
 				display: none;
